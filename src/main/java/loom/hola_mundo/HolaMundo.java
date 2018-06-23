@@ -16,8 +16,8 @@ public class HolaMundo {
 	
 	public String saludar (final String persona) {
 		
-		if (persona!= "")
-			return "¡Hola, "+persona+"!";	/*retorno saludo personalizado*/
+		if (persona != "")
+			return "Hola, " + persona + "!";	/* retorno saludo personalizado */
 		else
 			return "Hola";	/*retorno saludo generico*/
 			

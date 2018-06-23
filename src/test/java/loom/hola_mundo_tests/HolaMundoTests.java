@@ -14,11 +14,12 @@ import loom.hola_mundo.HolaMundo;
  * @param  void  no params in test cases
  * @return      result of the test
  */
+ 
 public class HolaMundoTests {
     @Test
     public void queSaludaCorrectamente() { /*Test cuando paso un nombre*/
         HolaMundo holaMundo = new HolaMundo();
-        Assert.assertEquals("¡Hola, Kent Beck!", holaMundo.saludar("Kent Beck"));
+        Assert.assertEquals("Hola, Kent Beck!", holaMundo.saludar("Kent Beck"));
     }
     @Test
     public void saludoGenericoCorrecto() { /*Test sin pasar nombre*/
